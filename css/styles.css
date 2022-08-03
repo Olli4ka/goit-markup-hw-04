@@ -4,12 +4,13 @@
 	--color-titles: #212121;
 	--color-text: #757575;
 	--color-fon: #f5f4fa;
-	--color-fon-banner: #2f303a;
+	--color-fon-banner:#C4C4C4;
 	--color-black: #000;
 	--main-button-accent: #188ce8;
 	--contacts-in-footer: rgba(255, 255, 255, 0.6);
 	--color-border: #EEEEEE;
 	--color-header-line: #ECECEC;
+	--color-gradient-hero: rgba(47, 48, 58, 0.4);
 	--card-set-gap: 30px;
 }
 
@@ -137,6 +138,18 @@ button {
 	background-color: var(--color-fon-banner);
 	padding-top: 200px;
 	padding-bottom: 200px;
+	height: 600px;
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(
+		rgba(47, 48, 58, 0.4),
+		rgba(47, 48, 58, 0.4)
+	),
+	url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .banner-title {
 	margin-top: 0;
