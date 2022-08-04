@@ -11,6 +11,7 @@
 	--color-border: #EEEEEE;
 	--color-header-line: #ECECEC;
 	--color-gradient-hero: rgba(47, 48, 58, 0.4);
+	--color-soc-icons: #AFB1B8;
 	--card-set-gap: 30px;
 }
 
@@ -143,8 +144,8 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	background-image: linear-gradient(
-		rgba(47, 48, 58, 0.4),
-		rgba(47, 48, 58, 0.4)
+		var(--color-gradient-hero),
+		var(--color-gradient-hero)
 	),
 	url(../images/hero.jpg);
 	background-repeat: no-repeat;
@@ -289,12 +290,36 @@ button {
 	font-size: 16px;
 	line-height: 1.2;
 	color: var(--color-text);
+	margin-bottom: 16px;
+}
+.team-contacts {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.team-contacts-link {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--main-title-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-soc-icons);
+}
+.team-contacts-icon {
+	fill: currentColor;
+}
+.team-contacts-link:hover,
+.team-contacts-link:focus {
+	background-color: var(--accent-color);
+	color: var(--main-title-color);
 }
 
 
 /* ---------------------------------ПОДВАЛ------------------------------ */
 .footer {
-	background-color: var(--color-fon-banner);
+	background-color: #2F303A;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
