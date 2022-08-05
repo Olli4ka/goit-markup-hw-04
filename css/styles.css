@@ -402,8 +402,27 @@ address a:hover,
 address a:focus {
 	color: var(--accent-color);
 }
-
-
+.sotial-list {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.sotial-items {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: #ffffff10;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.sotial-links {
+	fill: var(--main-title-color);
+}
+.sotial-items:hover,
+.sotial-items:focus{
+	background-color: var(--accent-color);
+}
 /* -----------------------------ПОРТФОЛИО------------------------------- */
 .portflio {
 	background-color: var(--main-title-color);
