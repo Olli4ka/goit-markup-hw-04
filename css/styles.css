@@ -213,6 +213,16 @@ button {
 	gap: 30px;
 	background-color: var(--main-title-color);
 }
+.features-pic {
+	width: 270px;
+	height: 120px;
+	background: var(--color-fon);
+	border-radius: 4px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .pec-list-title {
 	font-weight: 700;
 	font-size: 14px;
