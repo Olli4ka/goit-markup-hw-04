@@ -277,8 +277,7 @@ button {
 	padding: 30px 0;
 }
 .card-title {
-	margin-bottom: 10px;
-	
+	margin-bottom: 10px;	
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.2;
@@ -316,7 +315,39 @@ button {
 	color: var(--main-title-color);
 }
 
-
+/* -------------------------------КЛИЕНТЫ---------------------- */
+.clients-title {
+	margin-bottom: 50px;	
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: var(--color-titles);
+}
+.clients-list{
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+.clients-logo-link {
+	width: 170px;
+	height: 92px;
+	border: 1px solid var(--color-soc-icons);
+	border-radius: 4px;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--color-soc-icons);
+}
+.clients-logo-icon {
+	fill: currentColor;
+}
+.clients-logo-link:hover,
+.clients-logo-link:focus {
+	border: 1px solid var(--accent-color);
+	border-radius: 4px;
+	color: var(--accent-color);
+}
 /* ---------------------------------ПОДВАЛ------------------------------ */
 .footer {
 	background-color: #2F303A;
