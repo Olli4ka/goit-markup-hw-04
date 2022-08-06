@@ -363,6 +363,7 @@ button {
 	background-color: #2F303A;
 	padding-top: 60px;
 	padding-bottom: 60px;
+	
 }
 .logo-footer {
 	font-family: "Raleway", sans-serif;
@@ -378,10 +379,15 @@ button {
 .color-white {
 	color: var(--main-title-color);
 }
+.position {
+	display: flex;
+	gap: 70px;
+}
 .address {
 	font-weight: 400;
 	line-height: 1.7;
 	font-style: normal;
+	
 }
 address {
 	font-style: normal;
@@ -401,6 +407,16 @@ address {
 address a:hover,
 address a:focus {
 	color: var(--accent-color);
+}
+.add {
+	font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+display: block;
 }
 .sotial-list {
 	display: flex;
