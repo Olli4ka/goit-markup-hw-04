@@ -68,20 +68,17 @@ button {
 	margin: 0 auto;
 }
 /* --------------------------ШАПКА------------------------ */
-.page-header {
-	
+.page-header {	
 	background-color: var(--main-title-color);
 	border-bottom: 1px solid var(--color-header-line)
 }
 .page-header .container {
 	display: flex;
-	align-items: center;
-	
+	align-items: center;	
 }
 .page-navigation {
 	display: flex;
 }
-
 .logo {
 	font-family: "Raleway", sans-serif;
 	font-style: normal;
@@ -116,10 +113,8 @@ button {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--color-text);
-	
+	color: var(--color-text);	
 }
-
 .site-nav {
 	display: flex;
 	padding-top: 32px;
@@ -132,8 +127,37 @@ button {
 	margin-left: auto;
 	gap: 50px;
 }
-
-
+.header-mail,
+.header-tel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+	color: var(--accent-color);
+}
+.header-envelope {
+	width: 16px;
+	height: 12px;
+	background: var(--main-title-color);
+	fill: currentColor;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header-smartphone {
+	width: 10px;
+	height: 16px;
+	background: var(--main-title-color);
+	fill: currentColor;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 /* ----------------------ГЕРОЙ------------------------ */
 .banner {
 	background-color: var(--color-fon-banner);
@@ -164,12 +188,9 @@ button {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--main-title-color);
-	max-width: 696px;
-
-	
+	max-width: 696px;	
 }
-.main-button {
-	
+.main-button {	
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -180,8 +201,7 @@ button {
 	letter-spacing: 0.06em;
 	color: var(--main-title-color);
 	background-color: var(--accent-color);
-	border-radius: 4px;
-	
+	border-radius: 4px;	
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -245,8 +265,7 @@ button {
 	background-color: var(--main-title-color);
 	padding-bottom: 94px;
 }
-.doing-title {
-	
+.doing-title {	
 	margin-bottom: 50px;
 }
 .doing-title,
@@ -265,11 +284,9 @@ button {
 
 /* -------------------НАША КОМАНДА------------------------------ */
 .team {
-	background-color: var(--color-fon);
-	
+	background-color: var(--color-fon);	
 }
-.team-title {
-	
+.team-title {	
 	margin-bottom: 50px;
 }
 .team-list {
@@ -281,7 +298,6 @@ button {
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
-
 .team-desk {
 	text-align: center;
 	padding: 30px 0;
@@ -293,8 +309,7 @@ button {
 	line-height: 1.2;
 	color: var(--color-titles);
 }
-.card-text {
-	
+.card-text {	
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
@@ -362,8 +377,7 @@ button {
 .footer {
 	background-color: #2F303A;
 	padding-top: 60px;
-	padding-bottom: 60px;
-	
+	padding-bottom: 60px;	
 }
 .logo-footer {
 	font-family: "Raleway", sans-serif;
@@ -372,8 +386,7 @@ button {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--accent-color);
-	
+	color: var(--accent-color);	
 	margin-bottom: 20px;
 }
 .color-white {
@@ -386,8 +399,7 @@ button {
 .address {
 	font-weight: 400;
 	line-height: 1.7;
-	font-style: normal;
-	
+	font-style: normal;	
 }
 address {
 	font-style: normal;
@@ -414,13 +426,13 @@ address a:focus {
 }
 .add {
 	font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 20px;
-display: block;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+	display: block;
 }
 .sotial-list {
 	display: flex;
@@ -445,8 +457,7 @@ display: block;
 }
 /* -----------------------------ПОРТФОЛИО------------------------------- */
 .portflio {
-	background-color: var(--main-title-color);
-	
+	background-color: var(--main-title-color);	
 }
 .filters button {
 	font-family: inherit;
@@ -467,7 +478,6 @@ display: block;
 	background-color: var(--accent-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
-
 }
 .filters {
 	display: flex;
@@ -491,8 +501,7 @@ display: block;
 .cards-list > .cards-item {
 	flex-basis: calc(100% / 3 - var(--card-set-gap));
 	margin-bottom: var(--card-set-gap);
-	margin-left: var(--card-set-gap);
-	
+	margin-left: var(--card-set-gap);	
 }
 .card-link {
 	display: block;
@@ -500,8 +509,8 @@ display: block;
 .card-link:hover,
 .card-link:focus {
 	background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+	border: 1px solid #EEEEEE;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .cads {
 	font-weight: 700;
