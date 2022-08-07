@@ -4,14 +4,14 @@
 	--color-titles: #212121;
 	--color-text: #757575;
 	--color-fon: #f5f4fa;
-	--color-fon-banner:#C4C4C4;
+	--color-fon-banner: #c4c4c4;
 	--color-black: #000;
 	--main-button-accent: #188ce8;
 	--contacts-in-footer: rgba(255, 255, 255, 0.6);
-	--color-border: #EEEEEE;
-	--color-header-line: #ECECEC;
+	--color-border: #eeeeee;
+	--color-header-line: #ececec;
 	--color-gradient-hero: rgba(47, 48, 58, 0.4);
-	--color-soc-icons: #AFB1B8;
+	--color-soc-icons: #afb1b8;
 	--card-set-gap: 30px;
 }
 
@@ -68,13 +68,13 @@ button {
 	margin: 0 auto;
 }
 /* --------------------------ШАПКА------------------------ */
-.page-header {	
+.page-header {
 	background-color: var(--main-title-color);
-	border-bottom: 1px solid var(--color-header-line)
+	border-bottom: 1px solid var(--color-header-line);
 }
 .page-header .container {
 	display: flex;
-	align-items: center;	
+	align-items: center;
 }
 .page-navigation {
 	display: flex;
@@ -113,7 +113,7 @@ button {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--color-text);	
+	color: var(--color-text);
 }
 .site-nav {
 	display: flex;
@@ -127,36 +127,15 @@ button {
 	margin-left: auto;
 	gap: 50px;
 }
-.header-mail,
-.header-tel {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 10px;
+.header-icon {
+	fill: currentColor;
 }
-.header-mail:hover,
-.header-mail:focus,
-.header-tel:hover,
-.header-tel:focus {
-	color: var(--accent-color);
-}
-.header-envelope {
-	width: 16px;
-	height: 12px;
-	background: var(--main-title-color);
-	fill: currentColor;	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+.header-envelope,
 .header-smartphone {
-	width: 10px;
-	height: 16px;
-	background: var(--main-title-color);
-	fill: currentColor;	
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	gap: 10px;
 }
 /* ----------------------ГЕРОЙ------------------------ */
 .banner {
@@ -167,11 +146,7 @@ button {
 	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: linear-gradient(
-		var(--color-gradient-hero),
-		var(--color-gradient-hero)
-	),
-	url(../images/hero.jpg);
+	background-image: linear-gradient(var(--color-gradient-hero), var(--color-gradient-hero)), url(../images/hero.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -188,9 +163,9 @@ button {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--main-title-color);
-	max-width: 696px;	
+	max-width: 696px;
 }
-.main-button {	
+.main-button {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
@@ -201,7 +176,7 @@ button {
 	letter-spacing: 0.06em;
 	color: var(--main-title-color);
 	background-color: var(--accent-color);
-	border-radius: 4px;	
+	border-radius: 4px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -255,17 +230,16 @@ button {
 .pec-list-text {
 	font-weight: 400;
 	line-height: 1.7;
-	color:var(--color-text);
+	color: var(--color-text);
 }
 
 /* ---------------ЧЕМ МЫ ЗАНИМАЕСЯ------------------ */
-
 
 .doing {
 	background-color: var(--main-title-color);
 	padding-bottom: 94px;
 }
-.doing-title {	
+.doing-title {
 	margin-bottom: 50px;
 }
 .doing-title,
@@ -281,12 +255,11 @@ button {
 	gap: 30px;
 }
 
-
 /* -------------------НАША КОМАНДА------------------------------ */
 .team {
-	background-color: var(--color-fon);	
+	background-color: var(--color-fon);
 }
-.team-title {	
+.team-title {
 	margin-bottom: 50px;
 }
 .team-list {
@@ -303,13 +276,13 @@ button {
 	padding: 30px 0;
 }
 .card-title {
-	margin-bottom: 10px;	
+	margin-bottom: 10px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.2;
 	color: var(--color-titles);
 }
-.card-text {	
+.card-text {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.2;
@@ -342,23 +315,23 @@ button {
 
 /* -------------------------------КЛИЕНТЫ---------------------- */
 .clients-title {
-	margin-bottom: 50px;	
+	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
 	text-align: center;
 	color: var(--color-titles);
 }
-.clients-list{
+.clients-list {
 	display: flex;
 	justify-content: center;
 	gap: 30px;
 }
 .clients-logo-link {
-	width: 170px;
-	height: 92px;
+	width: 106px;
+	height: 60px;
 	border: 1px solid var(--color-soc-icons);
-	border-radius: 4px;	
+
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -375,9 +348,9 @@ button {
 }
 /* ---------------------------------ПОДВАЛ------------------------------ */
 .footer {
-	background-color: #2F303A;
+	background-color: #2f303a;
 	padding-top: 60px;
-	padding-bottom: 60px;	
+	padding-bottom: 60px;
 }
 .logo-footer {
 	font-family: "Raleway", sans-serif;
@@ -386,7 +359,7 @@ button {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--accent-color);	
+	color: var(--accent-color);
 	margin-bottom: 20px;
 }
 .color-white {
@@ -394,12 +367,14 @@ button {
 }
 .position {
 	display: flex;
+	align-items: baseline;
 	gap: 70px;
 }
 .address {
 	font-weight: 400;
 	line-height: 1.7;
-	font-style: normal;	
+	font-style: normal;
+	margin-right: 70px;
 }
 address {
 	font-style: normal;
@@ -430,7 +405,7 @@ address a:focus {
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #ffffff;
 	margin-bottom: 20px;
 	display: block;
 }
@@ -444,20 +419,27 @@ address a:focus {
 	height: 44px;
 	border-radius: 50%;
 	background-color: #ffffff10;
-	display:flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .sotial-links {
 	fill: var(--main-title-color);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: #ffffff10;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .sotial-items:hover,
-.sotial-items:focus{
+.sotial-items:focus {
 	background-color: var(--accent-color);
 }
 /* -----------------------------ПОРТФОЛИО------------------------------- */
 .portflio {
-	background-color: var(--main-title-color);	
+	background-color: var(--main-title-color);
 }
 .filters button {
 	font-family: inherit;
@@ -501,15 +483,13 @@ address a:focus {
 .cards-list > .cards-item {
 	flex-basis: calc(100% / 3 - var(--card-set-gap));
 	margin-bottom: var(--card-set-gap);
-	margin-left: var(--card-set-gap);	
+	margin-left: var(--card-set-gap);
 }
 .card-link {
 	display: block;
 }
 .card-link:hover,
 .card-link:focus {
-	background: #FFFFFF;
-	border: 1px solid #EEEEEE;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .cads {
@@ -528,5 +508,6 @@ address a:focus {
 }
 .card-content {
 	padding: 20px 24px;
-	border: 1px solid var(--color-border));
+	border: 1px solid var(--color-border);
+	border-top: none;
 }
